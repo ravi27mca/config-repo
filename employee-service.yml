@@ -1,8 +1,10 @@
-app:
-  message: Hello from Git Config Server
-  version: 2.0
-  author: Ravi
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/employee_db
+    username: root
+    password: root
 
-employee:
-  department: IT
-  location: Hyderabad
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
