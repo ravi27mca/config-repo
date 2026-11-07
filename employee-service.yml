@@ -1,0 +1,8 @@
+app:
+  message: Hello from Git Config Server
+  version: 2.0
+  author: Ravi
+
+employee:
+  department: IT
+  location: Hyderabad
